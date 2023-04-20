@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="search-google">
+        <a href="index.html">Google Search</a>
+    </header>
+
+    <div class="bar">
+        <label class="bar-title">Advanced Search</label>
+    </div>
+    <div class="line"></div>
+    <div class="form-advanced">
+        <form action="/search">
+            <div class="form-item">
+                <span>Find pages with...</span>
+            </div>
+            <div class="type-smth">&nbsp;</div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="first-input">all these words:</label>
+                </div>
+                <div class="input-form">
+                    <input class="input-text" type="text" id="first-input">
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="second-input">this exact word or phrase:</label>
+                </div>
+                <div class="input-form">
+                    <input class="input-text" type="text" id="second-input">
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="third-input">any of these words:</label>
+                </div>
+                <div class="input-form">
+                    <input class="input-text" type="text" id="third-input">
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="fourth-input">none of this words:</label>
+                </div>
+                <div class="input-form">
+                    <input class="input-text" type="text" id="fourth-input">
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="fifth-input">none of this words:</label>
+                </div>
+                <div class="input-one-two" style="position: relative;">
+                    <div style="display: table; width: 100%;">
+                        <div style="display: table-cell; padding-right: 16px;">
+                            <input class="input-text" type="text" id="fifth-input">
+                        </div>
+                        <div
+                            style="display: table-cell; width: 40px; padding-right: 6px; padding-left: 6px; text-align:center; font-size: 13px; color: black;">
+                            to</div>
+                        <div style="display: table-cell; padding-right: 16px">
+                            <input class="input-text" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-line"></div>
+
+
+            <div class="form-item">
+                <span>Then narrow your results by...</span>
+            </div>
+            <div class="type-smth">&nbsp;</div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="first-select">language:</label>
+                </div>
+                <div class="input-form">
+                    <select class="input-text select-text" name="" id="first-select">
+                        <option value="any">any language</option>
+                        <option value="afrikaans">Afrikaans</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="armenian">Armenian</option>
+                        <option value="belarusian">Belarusian</option>
+                        <option value="bulgarian">Bulgarian</option>
+                        <option value="catalan">Catalan</option>
+                        <option value="chinese1">Chinese (Simplified)</option>
+                        <option value="chinese2">Chinese (Traditional)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="second-select">region:</label>
+                </div>
+                <div class="input-form">
+                    <select class="input-text select-text" name="" id="second-select">
+                        <option value="any">any region</option>
+                        <option value="afghanistan">Afghanistan</option>
+                        <option value="albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="samoa">American Samoa</option>
+                        <option value="andora">Andorra</option>
+                        <option value="angola">Angola</option>
+                        <option value="anguilla">Anguilla</option>
+                        <option value="antarctica">Antarctica</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="third-select">last update:</label>
+                </div>
+                <div class="input-form">
+                    <select class="input-text select-text" name="" id="third-select">
+                        <option value="any">anytime</option>
+                        <option value="24h">past 24 hours</option>
+                        <option value="week">past week</option>
+                        <option value="month">past month</option>
+                        <option value="year">past year</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="fourth-input">site or domanin:</label>
+                </div>
+                <div class="input-form">
+                    <input class="input-text" type="text" id="fourth-input">
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="fourth-select">terms appearing:</label>
+                </div>
+                <div class="input-form">
+                    <select class="input-text select-text" name="" id="fourth-select">
+                        <option value="any">anywhere in the page</option>
+                        <option value="title">in the title of the page</option>
+                        <option value="text">in the text of the page</option>
+                        <option value="url">in the URL of the page</option>
+                        <option value="links">in links to the page</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label style="color:blue;" class="label-subitem" for="fifth-select">SafeSearch:</label>
+                </div>
+                <div class="input-form">
+                    <select class="input-text select-text" name="" id="fifth-select">
+                        <option value="show">Show explicit results</option>
+                        <option value="hide">Hide explicit results</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label class="label-subitem" for="sixth-select">file type:</label>
+                </div>
+                <div class="input-form">
+                    <select class="input-text select-text" name="" id="sixth-select">
+                        <option value="any">any format</option>
+                        <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                        <option value="ps">Adobe Postscripts (.ps)</option>
+                        <option value="dwf">Autodesk DWF (.dwf)</option>
+                        <option value="kml">Google Earth KML (.kml)</option>
+                        <option value="kmz">Google Earth KMZ (.kmz)</option>
+                        <option value="xls">Microsoft Excel (.xls)</option>
+                        <option value="ppt">Microsoft PowerPoint (.ppt)</option>
+                        <option value="doc">Microsoft Word (.doc)</option>
+                        <option value="drf">Rich Text Format (.rtf)</option>
+                        <option value="swf">Shockwave Flash (.swf)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bunch-subitems">
+                <div class="form-subitem">
+                    <label style="color:blue;" class="label-subitem" for="seventh-select">SafeSearch:</label>
+                </div>
+                <div class="input-form">
+                    <select class="input-text select-text" name="" id="seventh-select">
+                        <option value="not">not filtered by licence</option>
+                        <option value="freeuos">free to use or share</option>
+                        <option value="freec">free to use or share, even commercially</option>
+                        <option value="freeusm">free to use share or modify</option>
+                        <option value="freeusmc">free to use, share or modify, even commercially</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="text-align: right;">
+                <button class="btn-submit" type="submit">Advanced Search</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
